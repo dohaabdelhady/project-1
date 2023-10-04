@@ -1,0 +1,895 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing:1;
+    /* /////////////////////////////////////\\\\\\\\\\\\\\\\ header\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\////////////// */
+}
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: rgba(13, 1, 52, 0.4);
+     overflow: auto;
+    position: fixed ;
+    z-index: 30;
+    top: 0;
+}
+.headerimg{
+    width: 200px; ;
+    height: 65px;
+    margin-left: 150px;
+    float: left;
+    opacity: .8;
+}
+.headerlist{
+    list-style-type: none;
+    float: right;
+    margin-right: 100;
+    margin-top: 20;
+}
+.headerlist li{
+    display: inline-block;
+    margin-left: 25;
+    font-size: 20;
+}
+.headerlist li a{
+    text-decoration: none;
+    color: rgb(252, 254, 229);
+}
+
+
+/* //////////////////////////////////////////////////////////// sec1 electronic store////////////////////////////////////////////// */
+
+
+.electro{
+    width: 100%;
+    height:100vh;
+    background-image: url(../images/8eee04aeefee34699b413b5a55079b82.jpg);
+    background-repeat: no-repeat; 
+    background-position :center;
+    background-size: cover;
+    position: relative;
+}
+.electrover{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.623);
+    width: 100%;
+    height: 100%;
+}
+
+
+.electrotop{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    font-size: 55;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5;
+    word-spacing: 3;
+}
+.electrotop p{
+  font-size: 20; 
+  color: rgb(237, 238, 229);
+}  
+.electrotop button a{
+    text-decoration: none;
+    font-size: 19;
+    text-transform: capitalize;
+    color: rgb(5, 21, 21);
+} 
+.electrotop button{
+    padding: 12 25;
+    border-width: 0;
+    border-radius: 8px;
+    background-color:#fbe7f3;
+}
+.electrotop button:hover{
+    opacity: .8;
+}
+
+
+/* ///////////////////////////////////////////////////////sec2 welcome to website\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.we{
+    width: 100%;
+    background-color:#01497c;
+}
+.welcome{
+    width: 80%;
+    margin: auto;
+    
+}
+.wefather{
+    overflow: auto;
+    padding: 125 0  200 0;
+    text-align: center;
+    
+}
+.wetitle{
+    text-align: center;
+    font-size: 35;
+    text-transform: capitalize;
+    color: rgb(251, 245, 231);
+}
+.weline{
+    width: 80;
+    background-color: rgb(127, 127, 237);
+    height: 5;
+    margin: auto;
+    
+}
+.weson{
+    float: left;
+    width: 30%;
+    text-align: center;
+    border-style: solid;
+    border-width: 1;
+    margin-top: 70;
+    height: 230;
+    position: relative;
+    border-radius:30px;
+    background-color:rgb(42, 111, 151); 
+}
+.wes2{margin-left: 5%;    margin-right: 5%;}
+.weover{
+    width: 100%;
+    height: 100%;
+}
+.weover i{
+    font-size: 30;
+    color: rgb(34, 34, 84);
+    margin-bottom: 10;
+    margin-top: 20;
+}
+.weover h3{
+    font-size: 22;
+    margin: 10 0;
+    color:#fae8f3 ;
+}
+.weover p{
+ color: rgb(255, 240, 252);
+    margin: 10 0;
+}
+.weover a{
+    text-decoration: none;
+    font-size: 20;
+    margin: 10 0;
+    color: rgb(61, 2, 2);
+    text-transform: capitalize;
+}
+.weson::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:#b7e1fe;
+    border-radius: 30px;
+    opacity: 0;
+    transition: .6s;
+}
+.weson:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+.weson:hover .weover{
+    position: absolute;
+    z-index: 1;
+}
+.weover:hover h3{
+    color: rgb(2, 33, 58);
+}
+.weover:hover p{
+    color: rgb(23, 59, 93);
+}
+
+/* ////////////////////////////////////////////////////// mobile \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.mob{
+    background-color: #013a63;
+    width: 100%;
+    height: 1000px;
+}
+.mobile{
+    width: 80%;
+    margin: auto;
+    
+}
+.mobfather{
+    overflow: auto;
+    width: 100%;
+}
+.mobfather h2{
+    text-align: center;
+    font-size: 35;
+    text-transform: capitalize;
+    padding-top: 100;
+    color: rgb(251, 245, 231);
+
+}
+.mobline{
+    width: 80;
+    background-color: rgb(152, 174, 245);
+    height: 5;
+    margin: auto;
+    margin-bottom: 50;
+}
+.mobson{
+    float: left;
+    width: 30%;
+    position: relative; 
+    margin: 30 0;
+    border: 1px  solid; 
+    border-color: #013a63; 
+    border-radius: 20px;
+}
+.mos2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.mobimg{
+    width:92%;
+    margin: auto;
+    border: 1px  solid; 
+    border-color: #013a63; 
+    border-radius: 20px;
+
+    
+}
+.mobimg img{
+    width: 100%;
+    border: 1px  solid; 
+    border-color:rgb(42, 111, 151); 
+    border-radius: 20px;
+}
+.mobover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 36, 59, .7); 
+    text-align: center;
+    opacity: 0;
+    border: 1px  solid; 
+    border-color: #013a63; 
+    border-radius: 20px;
+}
+.mobtext{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.mobtext h3{
+    color: rgb(226, 233, 252);
+    text-transform: uppercase;
+    font-size: 15;
+    opacity: 0;
+
+}
+.mobtext p{
+    color: rgb(255, 255, 255);
+    font-size: 15;
+    line-height: 2.5;
+    opacity: 0;
+}
+.mobtext a{
+    font-size: 25;
+    color:rgb(107, 139, 234);
+    opacity: 0;
+    margin-left: 8;
+}
+.mobson:hover .mobover{
+    opacity: 1;
+    transition: .3s;
+}
+.mobson:hover .mobtext h3{
+    opacity: 1;
+    transition: 1s;
+}
+.mobson:hover .mobtext p{
+    opacity: 1;
+    transition: 2s;
+}
+.mobson:hover .mobtext a{
+    opacity: 1;
+    transition: 3s;
+}
+/* ///////////////////////////////////////////////////////////////////highest\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.highest{
+    width: 100%;
+    background-color:#01497c;
+    height: 650;
+}
+.high{
+    width:75%;
+    margin: auto;
+}
+.highfather{
+    overflow: auto;
+}
+.highfather h2{
+    text-align: center;
+    font-size: 35;
+    text-transform: capitalize;
+    padding-top: 90;
+    color: rgb(251, 245, 231);
+}
+.highline{
+    width: 150;
+    background-color: rgb(152, 174, 245);
+    height: 5;
+    margin: auto;
+    margin-top: 3;
+    margin-bottom: 70;
+}
+.highson{
+    float: left;
+    width: 30%;
+    padding: 20 ;
+    text-align: center;
+    position: relative;
+    background-color: rgb(42, 111, 151);
+    border: 1px  solid   #01497c; 
+    border-radius: 15px;
+}
+.highs2{
+    margin: 0 5%;
+}
+.highimg{
+    width: 80%;
+    margin:auto;
+    position: relative;
+    border: 1px solid rgb(42, 111, 151) ;
+} 
+.highimg img{
+    width: 100%;
+    border-radius: 30px;
+}
+.highover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 16, 40, 0.5); 
+    visibility: hidden;
+    border-radius: 30px;
+}
+.highson:hover .highover{ 
+    visibility: visible;
+}
+.highover a{display: block;
+    width: 40;
+    height: 40;
+    font-size: 30;
+    background-color: rgb(33, 69, 132);
+    color: #e2edf5;
+    margin-left: auto;
+}
+.highover a i{ line-height: 40px; }
+.highson:hover h3{ color: rgb(255, 255, 255);  }
+.highson:hover p{ color: rgb(196, 217, 253);}
+
+.highson::after{
+    position: absolute;
+    content:" ";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    transition:1.5s;
+    border-radius: 15px; 
+
+}
+.highson:hover::after{width: 100%;
+    height: 100%;
+    opacity: .4;
+}
+/* /////////////////////////////////////////////////////more\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* /////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.more1{
+    width: 100%;
+    background-color:#013a63;
+    height: 850;
+}
+.more{
+    width: 80%;
+    margin: auto;
+}
+.morefather{
+    overflow: auto;
+}
+.morefather h2{
+    text-align: center;
+    font-size: 35;
+    text-transform: capitalize;
+    padding-top: 90;
+    color: #d9eaf0;
+}
+.moreline{
+    width: 100;
+    background-color: rgb(160, 160, 246);
+    height: 5;
+    margin: auto;
+    margin-bottom: 70;
+    margin-top: 5;
+}
+.moreson{
+    float: left;
+    width: 30%;
+    border-style: solid;
+    border-color: #002b49;
+    margin: 30 0;
+    height: 200;
+    position: relative;
+    background-color:rgb(42, 111, 151);
+    border-radius: 30px;
+}
+.mores2{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.moreover{
+    width: 100%;
+    height: 100%;
+}
+.moreson i{
+    font-size: 35;
+    color: rgb(34, 34, 84);
+    letter-spacing: 10;
+    padding: 10;
+    
+}
+.moreover h3{
+    display: inline;
+    font-size: 27;
+    text-transform: capitalize;
+    color:#fae8f3 ;
+
+}
+.moreover p{
+    font-size: 16;
+    text-transform: capitalize;
+    color: rgb(255, 240, 252);
+    margin-left: 70;
+    line-height: 1.5;
+}
+.moreson::after{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:#b7e1fe;
+    opacity: 0;
+    transition: .5s;
+    border-radius: 30px;
+}
+.moreson:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+.moreson:hover .moreover{
+    position: absolute;
+    z-index: 1;
+}
+.moreover:hover h3{
+    color: rgb(58, 2, 49)
+}
+.moreover:hover p{
+    color: rgb(93, 23, 71);
+}
+/* //////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.picicon{
+    width: 100%;
+    height: 300;
+    background-image: url(../images/b86b6bea6387919cef813fafe509affb.jpg);
+    background-repeat: no-repeat; 
+    background-position :center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+
+}
+.picover{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    height: 100%;
+}
+.pictop {
+    width: 95%;
+    overflow: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.icon{
+    float: left;
+    width: 20%;
+    color:rgb(249, 249, 233);
+}
+.ic1{  margin-right: 5%; margin-left: 2%; }
+.ic2{margin-right: 5%;}
+.ic3{ margin-right: 5%;}
+.icon i{
+    font-size: 38;
+    color: rgb(69, 87, 244);
+}
+.icon h3{
+    color: rgb(255, 255, 255);
+    font-size: 20;
+    margin: 5 0;
+}
+/* ///////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* //////////////////////////////////////////////////////get offer\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+ .get{
+    width: 100%;
+    
+}
+.offer{
+    width:100%;
+    margin: auto;
+    overflow: auto;
+    background-color:#013a63;
+}
+.getinf{
+float: left;
+width: 40%;
+margin: 110 5%;
+}
+.getimg{
+float: left;
+width: 40%;
+height: 400;
+margin-top: 100;
+}
+.getimg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.getlist{  margin-left: 30;
+    color: rgb(73, 74, 75);
+ color: rgb(255, 240, 252);
+    text-transform: capitalize;
+    font-size: 20;
+}
+.getinf h2{
+    text-transform: capitalize;
+    font-size: 35;
+    color: rgb(251, 245, 231);
+}
+.getline{
+    width: 80;
+    background-color: rgb(160, 160, 246);
+    height: 4;
+    margin-bottom: 15;
+    margin-top: 3;
+}
+.getinf p{
+font-size: 25;
+color:#fae8f3 ;
+text-transform: capitalize;
+margin-bottom: 15;
+}
+/* /////////////////////////////////////////////////////////////////////////laptops\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ///////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.laptops{
+    width: 100%;
+    background-color:#01497c;
+    height: 900px;
+}
+.lap{
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+.lapfather{
+    overflow: auto;
+}
+.lapfather h2{
+    text-align: center;
+    font-size: 35;
+    text-transform: capitalize;
+    padding-top: 90;   
+    color: rgb(251, 245, 231);
+}
+.lapline{
+    width: 90;
+    background-color: rgb(152, 174, 245);
+    height: 5;
+    margin: auto;
+    margin-top: 3;
+    margin-bottom: 70;
+}
+.lapson{
+    float: left;
+    width: 30%;
+    background-color: rgb(42, 111, 151);
+    border: 1px  solid   #01497c; 
+    border-radius: 20px;
+    position: relative;
+    height: 550;
+}
+.laps2{
+    margin: 0 5%;
+}
+.lapimg{
+    width: 80%;
+    margin:auto;
+    border: 1px  solid  rgb(42, 111, 151);  
+    border-radius: 50%;
+    padding-top: 20;
+}
+.lapimg img{
+    width: 100%;
+    height: 200;
+    border: 1px  solid  rgb(42, 111, 151);  
+    border-radius: 50%;
+}
+.lapinf i{
+    font-size: 13;
+    margin-left: 30;
+    margin-top: 30;
+    margin-bottom: 20;
+    color: rgb(226, 231, 241) ;
+
+}
+.lapinf span{
+    font-size: 15;
+    color: rgb(63, 6, 55)
+}
+.lapinf h3{
+    margin-bottom: 20;
+    margin-left: 30;
+    color: rgb(255, 240, 252);
+
+}
+.lapinf p{
+    line-height: 1.6;
+    margin-left: 30;
+    color:#ffe3f4 ;
+}
+.lapinf a{
+    color: rgb(50, 1, 6);
+    text-transform: capitalize;
+    font-size: 20;
+    margin-left: 30;
+    text-decoration: none;
+    line-height: 2;
+}
+.lapson::after{
+    position: absolute;
+    content:" ";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: rgb(53, 19, 63);
+    background-color:#022c4a;
+    border: 0px  solid   #b7ddfa  ;
+    border-radius: 20px;
+    opacity: 0;
+    transition:1.5s; 
+}
+.lapson:hover::after{
+    height: 100%;
+    opacity: .4;
+}
+/* ////////////////////////////////////////////////////////////web\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.web{
+    width: 100%;
+    height: 300;
+    background-image: url(../images/web.jpg);
+    background-repeat: no-repeat; 
+    background-position :center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+
+}
+.webover{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+}
+.webtop{
+    overflow: auto;
+    width: 90%;
+    margin: auto;
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.webson{
+float: left;
+width: 30%;
+color: #e2edf5;
+margin-right: 10%;
+margin-left: 10%;
+overflow: auto;
+
+
+}
+.webimg{
+    float: left;
+
+}
+.webimg img{
+    width: 85;
+    height: 85;
+    border-radius: 50%;
+}
+.webtit{
+    float:left;
+    margin-top: 20;
+    margin-left: 15;
+    line-height: 1.5;
+    text-transform: capitalize;
+}
+.webinf p{
+    margin-top: 100;
+    font-size: 15;
+}
+.webtit p{
+color: rgb(96, 96, 231);
+} 
+/* /////////////////////////////////////////////////////////////////pricing\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* ////////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+.pricing{
+    width: 100%;
+    background-color:#01497c;
+    height: 700px;
+}
+.pricfather{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+.pricfather h2{
+    text-align: center;
+    font-size: 35;
+    text-transform: capitalize;
+    padding-top: 70;  
+    color: rgb(251, 245, 231);
+}
+.pricline{
+    width: 90;
+    background-color: rgb(152, 174, 245);
+    height: 5;
+    margin: auto;
+    margin-top: 3;
+    margin-bottom: 70;
+}
+.pricson{
+float: left;
+width: 30%;
+background-color: rgb(42, 111, 151);
+position: relative;
+text-align: center;
+height: 380;
+border: 1px  solid  #01497c;
+border-radius: 50px;
+position: relative;
+}
+.prics2{
+margin: 0 5%;
+}
+.pricson h3{
+    font-size: 25;
+    padding: 30;
+    text-transform: capitalize;
+    color:#fff4fb ;
+}
+.circle{
+    width: 110px; 
+    height: 110px;  
+    background-color: rgb(42, 111, 151);
+    border-radius: 50%; ;
+    margin: auto;
+    border: 2px solid rgb(254, 210, 237);
+}
+.circle h4{
+    font-size: 30;
+    line-height:2 ;
+    color: rgb(255, 240, 252);
+}
+.circle p{
+    font-size: 20;
+    color: rgb(255, 240, 252);
+}
+.pricinf{
+    margin-top: 15;
+}
+.pricson span{
+    font-size: 17;
+    line-height: 1.7;
+    color: rgb(255, 240, 252);
+}
+.pricson button{
+    padding: 10 15;
+    border-width: 1;
+    border-radius: 2px;
+    margin-top: 20;
+    background-color: rgb(255, 246, 252);
+    font-size: 13;
+    border-radius: 30px;
+}
+.pricson:hover .tit{
+    color: rgb(2, 3, 52);
+}
+.pricson:hover span{
+    color: rgb(2, 3, 52);
+}
+.pricson::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color:rgb(100, 202, 249) ;
+    opacity: 0;
+    transition: .6s;
+    border-radius: 50px;
+}
+.pricson:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: .3;
+} 
+/* ////////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+/* /////////////////////////////////////////////////////////////\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.end{
+    width: 100%;
+    height: 300;
+    background-color: rgb(6, 3, 77);
+    background-color:#013a63;
+    text-align: center;
+    color: #e2edf5;
+}
+.endimg{
+    width: 220;
+    height: 150;
+    margin: auto;
+    padding-top: 50;
+}
+.endimg img{
+    width: 100%;
+    height: 100%;
+}
+.endinf{
+    margin-top: 30;
+    line-height: 2.5;
+    letter-spacing: 1.5;
+}
+.endinf p{
+    display: inline;
+}
+.endinf i{
+    font-size: 35;
+    color: rgb(185, 185, 225);
+    margin: 10;
+}
+
+
+
+
+
+
